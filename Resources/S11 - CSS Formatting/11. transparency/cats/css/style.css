@@ -1,0 +1,29 @@
+body
+{
+    margin: 0;
+    background-color: #cfd9df;
+}
+
+a img
+{
+    opacity: 0.7;
+}
+a img:hover
+{
+    opacity: 1;
+}
+#warning
+{
+    width: 500px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 200px;
+    background-color: rgba(153, 35, 35, 0.9);
+    text-align: center;
+
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}

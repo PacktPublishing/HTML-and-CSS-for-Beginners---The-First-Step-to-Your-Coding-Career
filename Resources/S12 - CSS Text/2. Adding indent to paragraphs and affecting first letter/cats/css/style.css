@@ -1,0 +1,25 @@
+body
+{
+    margin: 0;
+    background-color: #cfd9df;
+}
+.sample
+{
+    text-indent: 40px;
+    padding: 10px;
+}
+
+.sample::first-letter
+{
+    font-weight: bold;
+    font-size: 24px;
+}
+ul
+{
+    list-style-type: none;
+}
+ul li::before
+{
+    content: "\2714\00A0";
+    color: blue;
+}

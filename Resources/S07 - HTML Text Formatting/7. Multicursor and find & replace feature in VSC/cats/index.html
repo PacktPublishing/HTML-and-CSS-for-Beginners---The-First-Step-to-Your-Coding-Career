@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kitty Snacks</title>  
+    <meta name="description" content="Cats are pets that we all like. The kitties are adorable
+                                        and they love to eat snacks from our catty site!">
+    <meta name="author" content="Arkadiusz Włodarczyk">
+</head>
+<body style="background-color: #97a53c;">
+
+
+    <!--
+         pre - pre formatted (for formatted text BEFORE pasting)
+         code - tag used to mark code (to distinguish it from text)
+         var - variable - to show that there is a variable in the text
+
+         SHIFT + TAB - go back one indent
+         TAB - add indent
+
+         ALT
+
+         CLTR + F (find)
+         CLTR + H
+    -->  
+    <pre>
+    <code>
+        #include <iostream>
+        #include <vector>
+        #include <typeinfo>
+        using namespace std;
+        int main()
+        {
+            vector<int> wholeNumbers {20, 10, 4, -3, 25};
+            double nrOfPeople = 20.5;
+            cout << nrOfPeople << endl;
+            cout << typeid(nrOfPeople).name() << endl;
+            for(auto it = wholeNumbers.begin(); it != wholeNumbers.end(); it++)
+            {
+                cout << *it << endl;
+            }
+            return 0;
+        }
+    </code>
+    </pre>
+        
+
+    <p> The number 70 is 40% greater than the number <var>a</var>. What is the value of <var>a</var>? </p>
+</body>
+</html>

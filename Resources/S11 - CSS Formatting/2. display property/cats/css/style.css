@@ -1,0 +1,22 @@
+body
+{
+    margin: 0;
+    background-color: #cfd9df;
+}
+.type1
+{
+    background-color: red;
+    display: block;
+}
+.type2
+{ 
+    background-color: green;
+    display: inline;
+}
+.type3
+{    
+    display: inline-block;
+    background-color: blue;
+    width: 250px;
+    height: 250px;
+}

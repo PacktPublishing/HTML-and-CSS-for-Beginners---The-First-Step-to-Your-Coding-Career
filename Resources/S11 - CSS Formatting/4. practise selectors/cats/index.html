@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kitty Snacks</title>
+    <meta name="description" content="Cats are pets that we all like. The kitties are adorable
+                                        and they love to eat snacks from our catty site!">
+    <meta name="author" content="Arkadiusz Włodarczyk">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <table>
+        <caption>Selectors</caption>
+        <tr>
+            <th>Selector</th>
+            <th>What does it do</th>
+        </tr>
+        <tr>
+            <td>p</td>
+            <td>select all elements named: <b>p</b></td>
+        </tr>
+        <tr>
+            <td>.foo</td>
+            <td>select all elements that class='<b>foo</b>'</td>
+        </tr>
+        <tr>
+            <td>#id-name</td>
+            <td>select all elements that id='<b>id-name</b>'</td>
+        </tr>
+        <tr>
+            <td>div, p</td> 
+            <td> select all elements that are <b>div</b> and <b>p</b></td>
+        </tr>   
+        <tr>
+            <td> div p</td>
+            <td>select all <b>p</b> INSIDE OF <b>div</b>.</td>
+        </tr>  
+        <tr>
+            <td> div   .foo</td>
+            <td> select all class='<b>foo</b>' INSIDE OF <b>div</b>.</td>
+        </tr>                 
+        <tr>
+            <td> div   p.foo</td>
+            <td> select all <b>p</b>, which class='<b>foo</b>' - INSIDE OF <b>div</b>.</td>
+        </tr>      
+       
+        <tr>
+            <td>*</td>
+            <td>select ALL elements on site</td>
+        </tr>          
+    </table>
+
+    <div>
+        <p class="foo">Foo</p>
+        <p class="foo">Foo</p>
+        <p>not foo</p>
+        <div class="foo">not p, foo</div>
+    </div>
+    
+    <p class="foo">sample text</p>
+
+    
+</body>
+</html>
+

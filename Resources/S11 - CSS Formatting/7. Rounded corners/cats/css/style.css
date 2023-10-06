@@ -1,0 +1,28 @@
+body
+{
+    margin: 0;
+    background-color: #cfd9df;
+}
+div
+{
+    margin: 10px;
+}
+
+.definition{
+    border-left: 5px solid crimson;
+    background-color:darkgray;
+    border-radius: 10px;
+}
+input
+{
+    border-radius: 10px;
+    margin: 10px;
+}
+.hint
+{
+    background-color: aqua;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px 50px 10px 0px;
+    padding: 20px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kitty Snacks</title>  
+    <meta name="description" content="Cats are pets that we all like. The kitties are adorable
+                                        and they love to eat snacks from our catty site!">
+    <meta name="author" content="Arkadiusz Włodarczyk">
+</head>
+<body style="background-color: #cfd9df;">
+
+    <!--
+        
+         Create a contact form on the website.
+         Ask for:
+         1) e-mail
+         2) user name
+         3) topic
+         4) the content of the e-mail
+
+
+         Search the Internet for information about: input type = "email"
+                                                    and "textarea".
+        
+    -->
+    
+    <form action="send_email.php" method="post">
+        <fieldset>
+            <legend>Contact with us</legend>
+            E-mail: <input type="email" name="email" id="email" placeholder="@" autofocus required><br>
+            Name: <input type="text" name="name" required><br><br>
+
+            Topic: <input type="text" name="topic" required><br><br>
+
+            Content: <br><textarea name="email_content" cols="30" rows="10" placeholder="How can i help you?"></textarea><br>
+
+            <input type="submit" value="Send">
+        </fieldset>
+    </form>
+
+</body>
+</html>

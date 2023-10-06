@@ -1,0 +1,77 @@
+body
+{
+    margin: 0;
+    background-color: #cfd9df;
+    font-size: 24px;
+}
+.sample
+{
+    /*
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+    font-style: oblique;
+    */
+    font: normal small-caps 600 1em/150% 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    text-indent: 40px;
+    padding: 10px;
+
+}
+
+.sample::first-letter
+{
+    font-weight: bold;
+    font-size: 1.5em;
+    /* 
+    5 * 10 = 50 
+    
+    */
+}
+ul
+{
+    list-style-type: none;
+}
+ul li::before
+{
+    content: "\2714\00A0";
+    color: blue;
+}
+div
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.weight1
+{
+    font-weight: 100;
+}
+.weight2
+{
+    font-weight: 200;
+}
+.weight3
+{
+    font-weight: 300;
+}
+.weight4
+{
+    font-weight: 400;
+}
+.weight5
+{
+    font-weight: 500;
+}
+.weight6
+{
+    font-weight: 600;
+}
+.weight7
+{
+    font-weight: 700;
+}
+.weight8
+{
+    font-weight: 800;
+}
+.weight9
+{
+    font-weight: 900;
+}

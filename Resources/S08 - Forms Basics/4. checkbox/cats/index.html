@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kitty Snacks</title>  
+    <meta name="description" content="Cats are pets that we all like. The kitties are adorable
+                                        and they love to eat snacks from our catty site!">
+    <meta name="author" content="Arkadiusz Włodarczyk">
+</head>
+<body style="background-color: #cfd9df;">
+
+    <!--
+        Field radio  - radio
+
+        Delivery type:
+        courier
+        pickup point
+        post office
+        ----------------
+
+        How old are you?
+
+        ----------------
+        fieldset
+        legend 
+        label 
+
+        checked
+        
+    -->
+
+    <form action="form.php">
+        <fieldset>
+            <legend>What type of delivery do you want to choose?</legend>
+            <input type="radio" name="delivery_type" id="delivery_type1" value="courier"> <label for="delivery_type1">Courier</label><br>
+            <input type="radio" name="delivery_type" id="delivery_type2" value="pickup_point"> <label for="delivery_type2">Pickup point</label><br>
+            <input type="radio" name="delivery_type" id="delivery_type3" value="postoffice"> <label for="delivery_type3">Postoffice</label><br>
+            
+        </fieldset>      
+        <fieldset>
+            <legend>What is your hobby?</legend>
+            <input type="checkbox" name="hobby" id="swimming" value="swimming"> <label for="swimming">swimming</label>
+            <input type="checkbox" name="hobby" id="video_games" value="video_games"> <label for="video_games">video games</label>
+            <input type="checkbox" name="hobby" id="programming" value="programming"> <label for="programming">programming</label>
+
+        </fieldset>         
+        
+        <input type="submit" value="Send">
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+* {
+    
+    margin: 0;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+#sample
+{
+    background-color: red;
+    padding: 20px;
+}
+#container
+{
+    box-sizing: border-box;
+    width:  1200px;    
+    margin: 0 auto;
+}
+#container address
+{
+    color: teal;
+    position: absolute; 
+    right: 20px;  
+    top: 20px; 
+}
+#top
+{
+    background-color: #262726;
+    padding: 50px;
+    position: relative;    
+}
+#menu
+{
+    position: sticky;
+    top: 0px;
+    background-color: #0f3250;
+    padding: 20px 50px;
+    
+}
+#menu a
+{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+#middle
+{
+    background-color: #ececec;
+    padding: 50px;
+}
+#footer
+{
+    background-color: red;
+    padding: 20px 50px;
+}
+#goToTop
+{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background-color: rgba(38, 39, 38, 0.9);
+    padding: 20px;
+    color: teal;
+    text-decoration: none;
+}
+#goToTop:hover
+{
+    background-color: rgba(38, 39, 38);
+}
+h1, h2, h3
+{
+    margin: 15px 0;
+}
+h1
+{
+    margin-top: 0;
+}
+#image
+{
+    float: left;
+    margin-right: 50px;
+}
+p
+{
+    text-align: justify;
+}

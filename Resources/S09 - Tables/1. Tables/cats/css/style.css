@@ -1,0 +1,42 @@
+table
+{
+    border-collapse: collapse;
+    font-size: 0.8em;
+    min-width: 150px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.35);
+}
+th
+{
+    font-weight: bold;
+    border-bottom: 1px solid #f3f3f3ca;
+    font-size: 1.1em;
+}
+table tr
+{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+th, td
+{
+    padding: 12px 15px;
+}
+tbody tr
+{
+    border-bottom: 1px solid #dddddd;
+}
+tbody tr:nth-of-type(even)
+{
+    background-color: #f3f3f3ca;
+    color: #009879;
+}
+tbody tr:last-of-type
+{
+    border-bottom: 2px solid #f3f3f3ca;
+}
+caption
+{
+    font-weight: bold;
+    padding: 10px;
+    font-size: 1.5em;
+}

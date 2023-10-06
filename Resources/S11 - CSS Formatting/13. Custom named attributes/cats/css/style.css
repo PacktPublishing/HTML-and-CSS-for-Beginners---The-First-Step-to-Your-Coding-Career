@@ -1,0 +1,18 @@
+body
+{
+    margin: 0;
+    background-color: #cfd9df;
+}
+[data-help]
+{
+    cursor: help;
+    border-bottom: 1px dotted red;
+}
+[data-help]:hover::after
+{
+    content: attr(data-help);
+    background-color: rgba(0, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 5px;
+    position: absolute;
+}

@@ -1,0 +1,39 @@
+body
+{
+    margin: 0;
+    background-color: #cfd9df;
+}
+div
+{
+    margin: 10px;
+}
+
+.none {border-style: none;}
+.dotted {border-style: dotted;}
+.dashed {border-style: dashed;}
+.solid {border-style: solid;}
+.double {border-style: double;}
+.groove {border-style: groove;}
+.ridge {border-style: ridge;}
+.inset {border-style: inset;}
+.outset {border-style: outset;}
+.mix {
+
+    border: 10px inset chocolate;
+
+    border-top-style: none;
+    border-right-style: none;
+
+    width: 300px;
+}
+.definition{
+    border-left: 5px solid crimson;
+    background-color:darkgray;
+}
+.definition2
+{
+
+    border-style: none none solid solid;
+    width: 300px;
+    text-align: center;
+}

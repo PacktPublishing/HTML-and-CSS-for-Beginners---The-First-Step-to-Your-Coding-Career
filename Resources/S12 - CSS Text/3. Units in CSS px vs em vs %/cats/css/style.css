@@ -1,0 +1,38 @@
+body
+{
+    margin: 0;
+    background-color: #cfd9df;
+    font-size: 24px;
+}
+#newparent
+{
+    background-color: red;
+    width: 700px;
+}
+.sample
+{
+    text-indent: 40px;
+    padding: 10px;
+    width: 50%;
+    /* 0.5 * 700 = 350px */
+    
+}
+
+.sample::first-letter
+{
+    font-weight: bold;
+    font-size: 1.5em;
+    /* 
+    5 * 10 = 50 
+    
+    */
+}
+ul
+{
+    list-style-type: none;
+}
+ul li::before
+{
+    content: "\2714\00A0";
+    color: blue;
+}

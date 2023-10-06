@@ -1,0 +1,24 @@
+body
+{
+    margin: 0;
+    background-color: #cfd9df;
+}
+
+#menu a:link, #menu a:visited
+{
+    text-decoration: none;
+    color: white;
+    background-color: #059555;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid white;
+}
+
+#menu a:hover, #menu a:active
+{
+    background-color: white;
+    color: #059555;
+    border: 1px solid #059555;
+
+}
+

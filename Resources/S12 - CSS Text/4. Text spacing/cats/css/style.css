@@ -1,0 +1,40 @@
+body
+{
+    margin: 0;
+    background-color: #cfd9df;
+    font-size: 24px;
+}
+.math-rule
+{
+    line-height: 1.3em;
+    
+    word-spacing: 0.2em;
+    letter-spacing: 0.1em;
+    color: crimson;
+
+}
+.sample
+{
+    text-indent: 40px;
+    padding: 10px;
+
+}
+
+.sample::first-letter
+{
+    font-weight: bold;
+    font-size: 1.5em;
+    /* 
+    5 * 10 = 50 
+    
+    */
+}
+ul
+{
+    list-style-type: none;
+}
+ul li::before
+{
+    content: "\2714\00A0";
+    color: blue;
+}

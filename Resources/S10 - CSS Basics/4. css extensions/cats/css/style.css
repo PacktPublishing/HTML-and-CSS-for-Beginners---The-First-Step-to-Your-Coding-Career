@@ -1,0 +1,14 @@
+.center {
+    text-align: center;
+}
+.larger {
+    font-size: 40px;
+}
+#unique_text {
+    color: red;
+    font-weight: bold;
+}
+#basket input {
+    color: blue;
+    width: 50px;
+}

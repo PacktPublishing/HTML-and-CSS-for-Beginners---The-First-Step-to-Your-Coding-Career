@@ -1,0 +1,19 @@
+body
+{
+    margin: 0;
+    background-color: #cfd9df;
+}
+div
+{
+    background-color: aqua;
+}
+span
+{
+    background-color: red;
+    width: 500px;
+}
+.text
+{
+    width: 600px;
+   
+}

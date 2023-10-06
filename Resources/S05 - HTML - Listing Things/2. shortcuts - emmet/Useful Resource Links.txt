@@ -1,0 +1,8 @@
+Useful Resource Links
+
+
+Visual Studio Code Shortcuts:
+https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
+
+Emmet Shortcuts (CHEAT SHEETS):
+https://docs.emmet.io/cheat-sheet/

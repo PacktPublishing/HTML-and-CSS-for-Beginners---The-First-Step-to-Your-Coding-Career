@@ -1,0 +1,29 @@
+#sample
+{
+    background-color: lightskyblue;
+}
+#test
+{
+    background-color: chocolate;
+}
+body
+{
+    margin: 0;
+    background-color: #cfd9df;
+    color: darkslategrey;
+}
+
+.type1
+{
+    background-color: blue;
+    color: indigo;
+}
+.type1
+{
+    background-color: red;
+}
+.type2
+{ 
+    background-color: green;
+}
+

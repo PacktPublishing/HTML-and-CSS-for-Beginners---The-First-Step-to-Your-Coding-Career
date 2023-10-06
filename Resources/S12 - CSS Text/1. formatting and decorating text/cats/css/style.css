@@ -1,0 +1,36 @@
+body
+{
+    margin: 0;
+    background-color: #cfd9df;
+}
+
+
+.sample
+{
+    display: block;
+    text-align: justify;
+    white-space: pre-wrap;
+
+    padding: 10px;
+    background-color: bisque;
+  
+  
+}
+
+[data-help]
+{
+    cursor: help;
+    text-decoration: underline dotted orangered;
+}
+[data-help]:hover::after
+{
+    content: attr(data-help);
+    background-color: rgba(0, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 5px;
+    position: absolute;
+}
+input
+{
+    text-transform: capitalize;
+}

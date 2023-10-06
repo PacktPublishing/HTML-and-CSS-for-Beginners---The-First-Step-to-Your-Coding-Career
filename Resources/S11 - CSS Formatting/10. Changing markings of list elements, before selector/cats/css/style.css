@@ -1,0 +1,16 @@
+body
+{
+    margin: 0;
+    background-color: #cfd9df;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+ul li::before
+{ 
+    content: "\00BB\00A0";
+    color: blue;
+}
